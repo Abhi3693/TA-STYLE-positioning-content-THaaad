@@ -63,6 +63,9 @@ table {
 
  }
 
+ * {
+     box-sizing: border-box;
+ }
 .logo-container {
     display: inline-block;
     vertical-align: middle;
@@ -94,32 +97,22 @@ table {
 }
 
 .col {
-    padding: 20px;
-    display: inline-block;
-}
-
-.heading-text {
-    font-size: 36px;
-    color: green;
+    float: left;
+    width: 33.33%;
+    padding: 1.5%;
 }
 
 .article-text {
     font-size: 20px;
-    width: 200px;
-    padding: 20px;
+    width: 100%;
+    padding: 10px;
+    
 }
 
 .hero-img {
     width: 200px;
     height: 200px;
-}
-
-.left {
-    float: left;
-}
-
-.right {
-    float: right;
+    padding: 10px;
 }
 
 .clearfix::before, .clearfix::after {
@@ -128,7 +121,4 @@ table {
 }
 .clearfix::after {
     clear: both;
-}
-.last {
-    margin: 0 300px;
 }
