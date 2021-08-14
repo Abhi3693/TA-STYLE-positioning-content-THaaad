@@ -50,6 +50,11 @@ table {
 
 /* custom style */
 
+
+* {
+    box-sizing: border-box;
+}
+
  /* Header */
 
  .header {
@@ -58,14 +63,11 @@ table {
  }
 
  .container {
-     width:1500px;
+     max-width:1500px;
      margin: 0 auto;
 
  }
 
- * {
-     box-sizing: border-box;
- }
 .logo-container {
     display: inline-block;
     vertical-align: middle;
